@@ -13,8 +13,18 @@ h1 {
 
     font-weight: lighter;
 }
+h2{
+    color: #fff;
+}
+
 span{
     color: red;
+}
+input{
+    border-radius: 5px;
+}
+input:hover{
+    background-color: grey;
 }
 
 .inline{
@@ -318,7 +328,7 @@ nav #menu li a:hover {
     width: 20px;
     height: 20px;
     
-    -webkit-transform: translate(-50%, 0) rotate(45deg);
+    transform: translate(-50%, 0) rotate(45deg);
     animation: fade_move_down 5s cubic-bezier(0.19, 1, 0.22, 1) infinite;
 }
 
@@ -338,7 +348,6 @@ nav #menu li a:hover {
 
 /*--------------- projects section --------------- */
 
-
 .vertical {
     margin-top: 40px;
     border-left: 1px solid #fff;
@@ -346,36 +355,61 @@ nav #menu li a:hover {
     position: absolute;
     left: 50%;
 }
-.text{
+.text1{
     
+    height: 450px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+.text{
+   
+    height: 250px;
     text-align: center;
     justify-content: center;
     align-items: center;
     margin: auto;
 }
-.projectx{
-    height: 250px;
-}
-.project {
-    height: 500px;
-    
-}
-
+/* index project image */
 .project1{
     
     background: url(./android-chrome-512x512\ -\ copia.png) no-repeat center;
     background-size: contain;
+    background-color: #fff;
+    
+}
+.project2{
+    
+    background: url(./ravenous.ico) no-repeat center;
+    background-size: contain;
+    background-color: #fff;
+    
+}
+
+/* end */
+.projectx{
+    height: 350px;
+    border-radius: 15px;
+    
+}
+.project {
+    height: 500px;
+    margin-bottom: 10px;
+}
+/*  project image */
+.index1{
+    filter: grayscale(100%);
+    background: url(https://images.unsplash.com/photo-1543013309-0d1f4edeb868?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=723&q=80) no-repeat center;
+    background-size: cover;
+    
     
 }
 
 
 
 
-.project2 {
-    filter: grayscale(100%);
-    background: url(https://images.unsplash.com/photo-1589688671153-aa4a582a0333?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=333&q=80) no-repeat 50% 50%;
-    background-size: cover;
-}
+
 
 
 
@@ -404,7 +438,13 @@ nav #menu li a:hover {
     width: 100%;
     height: 100%;
     margin: auto;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+}
+.project1{
+   
+    background-image: url(./android-chrome-512x512\ -\ copia.png);
+    background-size: center;
 }
 .bg-chall{
     border-radius: 15px;
@@ -430,7 +470,8 @@ nav #menu li a:hover {
     }
     .projectx{
         width: 90% !important;
-        margin: auto;
+        margin:auto;
+        margin-bottom: 20px;
         
     }
     .vertical {
