@@ -380,14 +380,20 @@ nav #menu li a:hover {
     margin: auto;
 }
 /* index project image */
-.project1{
+.project-jam{
     
-    background: url(./android-chrome-512x512\ -\ copia.png) no-repeat center;
+    background: url(./jamlist.jpg) no-repeat center;
     background-size: contain;
-    background-color: #fff;
+
+    background-color: #1D3557;
     
 }
-.project2{
+.project-weather{
+    background: url(./wheatherscreenshot.jpg) no-repeat center;
+    background-size: contain;
+    background-color: #0E1C36;
+}
+.project-raven{
     
     background: url(./ravenous.ico) no-repeat center;
     background-size: contain;
@@ -457,11 +463,7 @@ nav #menu li a:hover {
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 15px;
 }
-.project1{
-   
-    background-image: url(./android-chrome-512x512\ -\ copia.png);
-    background-size: center;
-}
+
 .bg-chall{
     border-radius: 15px;
     background-image: url(https://images.unsplash.com/photo-1522096738458-26e9360cfd09?ixlib=rb-1.2.1&auto=format&fit=crop&w=308&q=80);
@@ -494,13 +496,13 @@ nav #menu li a:hover {
           display: none;
     }
 
-    .project1::after, .project2::after, .project3::after, .project4::after {
+    .project-weather::after, .project-jam::after, .project-raven::after, .project4::after {
           display: none;
     }
     .text1, .text3{
         order:2
     }
-    .project1, .project3{
+    .project-weather, .project-raven{
         order:1
     }
 }
