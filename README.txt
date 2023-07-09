@@ -1,1 +1,0 @@
-This is my awful personal portfolio!
