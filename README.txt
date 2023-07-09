@@ -1,0 +1,3 @@
+Welcome to my provisional portfolio! This portfolio was created three years ago when I was a junior in the field of web development. It showcases some of my early projects and serves as a reflection of my progress and skills at that time.
+
+Please note that this portfolio is provisional, meaning it is not an accurate representation of my current abilities and experience. Since its creation, I have gained significant knowledge, acquired new skills, and completed more advanced projects. If you're interested in seeing my updated and more comprehensive portfolio, please reach out to me directly.

@@ -426,6 +426,11 @@ nav #menu li a:hover {
     border-radius: 15px;
     
 }
+.a-links{
+display: flex;
+justify-content: space-around;
+   
+}
 .project {
     height: 500px;
     margin-bottom: 10px;
@@ -474,6 +479,7 @@ nav #menu li a:hover {
     background: url(https://images.unsplash.com/photo-1575921135170-c4d45d08f692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80) no-repeat 50% 50%;
     background-size: cover;
 }
+
 /*------------Challenge style------------*/
 .prop-row{
     justify-content: space-between;
